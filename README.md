@@ -5,11 +5,9 @@ Home: https://github.com/vahtras/util
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/blocked-matrix-utils-feedstock/blob/master/LICENSE.txt)
 
 Summary: NumPy wrappers for blocked matrices
-
-
 
 Current build status
 ====================
