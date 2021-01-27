@@ -1,7 +1,5 @@
 {% set name = "blocked-matrix-utils" %}
 {% set version = "1.0.6" %}
-{% set sha256 = "7170446fb768f83eb6dee1c4c242e3f37b414a9bc6608288f50fb3bb73bd7393" %}
-{% set build = 2 %}
 
 package:
   name: {{ name|lower }}
@@ -9,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }} 
+  sha256: 7170446fb768f83eb6dee1c4c242e3f37b414a9bc6608288f50fb3bb73bd7393
 
 build:
-  number: {{ build }}
+  number: 2
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
